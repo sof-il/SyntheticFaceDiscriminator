@@ -5,4 +5,4 @@ We distinguish synthetic face images from real ones by compressing the images - 
 variational autoencoder with a scale hyperprior model by Ballé et al. and 2D-DWT as a 
 pre-processing step.
 
-The paper will be uploaded soon.
+The paper and more information will be uploaded soon.
