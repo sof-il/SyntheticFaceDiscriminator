@@ -470,7 +470,7 @@ The .csv file that contains the extracted features from the real model is used a
 synthetic model are added to it. """
 
 """ Stacks the features extracted for the detection. """
-features = list(np.loadtxt("Path to .csv file saved from the first run of test phase B", delimiter=','))
+features = list(np.loadtxt("Path to .csv file saved from the first run of test phase B", delimiter=','))      # The file contains the fearures of the real images tested on the 2 models
 label_f = 1.0                 # The labels are 0 for real and 1 for synthetic images.
 
 for i in range (len(reconstructed_ds_r2)):
