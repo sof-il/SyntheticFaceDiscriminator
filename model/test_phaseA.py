@@ -468,6 +468,7 @@ features = []
 label_r = 0.0      # The labels are 0 for real and 1 for synthetic images.
 
 for i in range (len(reconstructed_ds_r2)):
+    """ The 27 features are stacked together. """
     features_r = np.zeros(55)
     features_r[0] = test_resultsa_r2[0][i]
     features_r[1] = test_resultsa_r2[1][i]
