@@ -1,4 +1,4 @@
-# SyntheticFaceDiscriminitor
+# Synthetic Face Discriminitor
 
 This is the code for our paper "Synthetic Face Discrimination via Learned Image Compression".
 We distinguish synthetic face images from real ones by compressing the images - using the
