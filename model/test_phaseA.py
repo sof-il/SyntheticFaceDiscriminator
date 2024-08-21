@@ -1,7 +1,7 @@
 """ Disclaimer: This method is based on the technique described in 'Variational 
 Autoencoder with a scale Hyperprior'. Thus, the network is the same. """
 
-""" This script requires TFC v2 (`pip install tensorflow-compression==2.*`) """
+""" This script requires TFC v2 ('pip install tensorflow-compression==2.*') and pywavelets ('pip install PyWavelets') """
 import numpy as np
 import pywt
 import os
