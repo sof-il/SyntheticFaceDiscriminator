@@ -1,7 +1,22 @@
 """ Disclaimer: This method is based on the technique described in 'Variational 
 Autoencoder with a scale Hyperprior'. Thus, the network is the same. """
 
+"""Synthetic face discriminator with deep learning-based image compression.
+
+This is the synthetic image detection model published in:
+S. Iliopoulou, P. Tsinganos, D. Ampeliotis and A. Skodras:
+"Synthetic Face Discrimination via Learned Image Compression"
+Algorithms 2024, 17, 375. https://doi.org/10.3390/a17090375
+https://www.mdpi.com/1999-4893/17/9/375
+
+This is meant as 'educational' code - you can use this to get started with your
+own experiments. To reproduce the exact results from the paper, tuning of hyper-
+parameters may be necessary. 
+
+This script requires TFC v2 (`pip install tensorflow-compression==2.*`). """
+
 """ This script requires TFC v2 ('pip install tensorflow-compression==2.*') and pywavelets ('pip install PyWavelets') """
+
 import numpy as np
 import pywt
 import os
